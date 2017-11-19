@@ -1,7 +1,7 @@
 .main {
   position: absolute;
   /*margin-top: 43px;*/
-  margin-top: 90px;
+  margin-top: 85px;
 
   left: 0;
   top: 0;
@@ -9,11 +9,10 @@
   right: 0;
 }
 .header {
-  position: absolute;
   width: 100%;
+  position: absolute;
   background-color: #585d70;
-  /*height: 54px;*/
-  height: auto;
+  height: 84px;
   box-sizing: border-box;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -47,8 +46,9 @@
   /*align-content: center;*/
   align-items: center;
 }
-.header__menu_primory-item, .header__menu_second-item {
+.header__menu_primory-item, .header__menu_second-item, .header__menu_therd-item, .header__menu_four-item {
   margin-left: 10px;
+  margin-right: 10px;
 }
 .header__menu-link {
   display: flex;
