@@ -27,17 +27,19 @@ menu {
 /*icons*/
 
 span.close, .taskicon, .viewicon, .searchicon, .treeicon, a.split, a.close, a.max, a.min, a.lamp, a.tree {
-	background: url(../../images/system/icons.png) no-repeat;
+	/*background: url(../../images/system/icons.png) no-repeat;*/
+	background-image: url('../../images/system/icons_new.png');
+	background-repeat: no-repeat;
 }
 
 span.close {
-	width: 9px;
-	height: 9px;
-	background-position: 0 -38px;
+	width: 25px;
+	height: 25px;
+	background-position: 0 0;
 	display: block;
 	position: absolute;
 	right: 4px;
-	top: 6px;
+	top: 10px;
 }
 
 span.close:hover {
@@ -57,54 +59,54 @@ span.close:hover {
 }
 
 .searchicon {
-	background-position: 4px -167px;
+	background-position: 0 -150px;
 }
 
 a.lamp {
-	background-position: 0 -197px;
-	width: 20px;
-	height: 23px;
+	background-position: 0 -150px;
+	width: 25px;
+	height: 25px;
 	left: 14px;
 	top: 2px;
 	position: absolute
 }
 
 a.tree {
-	background-position: 0 -228px;
-	width: 16px;
-	height: 16px;
-	left: 12px;
+	background-position: 0 -125px;
+	width: 25px;
+	height: 25px;
+	left: 30px;
 	top: 2px;
 	position: absolute
 }
 
 a.split, a.close, a.max, a.min {
-	width: 9px;
-	height: 12px;
+	width: 25px;
+	height: 25px;
 	display: block;
 	position: absolute;
 }
 
 a.split {
-	background-position: 0 0;
+	background-position: 0 -50px;
 	left: 4px;
-	top: 4px;
+	top: 2px;
 }
 
 a.close {
-	background-position: 0 -36px;
+	background-position: 0 0;
 	right: 5px;
 	top: 3px;
 }
 
 a.max {
-	background-position: 0 -24px;
+	background-position: 0 -25px;
 	right: 25px;
 	top: 3px;
 }
 
 a.min {
-	background-position: 0 -12px;
+	background-position: 0 -100px;
 	right: 45px;
 	top: 3px;
 }
@@ -158,6 +160,7 @@ a.min {
 	border-right: 1px solid #aec9e6;
 	border-top: 1px solid #aec9e6;
 	border-left: 1px solid #aec9e6;*/
+	border-bottom: 4px solid #f58100;
 }
 
 
