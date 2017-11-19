@@ -1,6 +1,8 @@
 .main {
   position: absolute;
-  margin-top: 43px;
+  /*margin-top: 43px;*/
+  margin-top: 90px;
+
   left: 0;
   top: 0;
   bottom: 0;
@@ -9,15 +11,74 @@
 .header {
   position: absolute;
   width: 100%;
-  background-color: #454545;
-  height: 43px;
-  background: url('../../images/system/header-background.png');
+  background-color: #585d70;
+  /*height: 54px;*/
+  height: auto;
+  box-sizing: border-box;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-top: 2px solid #c0c3cc;
+  border-bottom: 4px solid #c0c3cc;
+  display: flex;
 }
+.header__logo-link {
+  border-right: 2px solid #484f5a;
+}
+.header__logo-img {
+  padding-right: 10px;
+}
+.header__menu  {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu_primory,
+.header__menu_second,
+.header__menu_therd,
+.header__menu_four {
+  list-style: none;
+  border-right: 2px solid #484f5a;
+  display: flex;
+  justify-content: flex-start;
+}
+.header__menu_four-item {
+  display: flex;
+  /*align-content: center;*/
+  align-items: center;
+}
+.header__menu_primory-item, .header__menu_second-item {
+  margin-left: 10px;
+}
+.header__menu-link {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60px;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: #a9adbe;
+  transition: 0.3s;
+}
+.header__menu-link:hover {
+  color: #f58100;
+  transition: 0.5s;
+}
+.header__menu-link-icon {
+  font-size: 2.4em;
+}
+.header__menu-link-text {
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+
 body {
   margin: 0;
-  background: #f5f5f5;
+  /*background: #f5f5f5;
   background-image: url("http://blog.perrohunter.com/wp-content/uploads/2010/03/Vector-Girl-vector-girl-1440x900.jpg");
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Tahoma, Geneva, sans-serif;*/
+  background-color: #c0c3cc;
+
 }
 html,
 body {

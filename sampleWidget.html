@@ -6,6 +6,7 @@
 
 	<script src="vendor/jquery.js"></script>
 	<script src="vendor/lodash.js"></script>
+	<script src="https://use.fontawesome.com/07d7b0bb63.js"></script>
 
 	<script src="dist/citorus.min.js"></script>
 	<!--<link rel="stylesheet" type="text/css" href="styles/base/citorus.min.css">-->
@@ -17,10 +18,100 @@
 
 </head>
 <body>
-<div id="plate" class="main"></div>
 <div class="header">
-	<img id="create" src="images/system/header-logo.png">
+
+	<a href="#" class="header__logo-link"><img src="images/system/header__logo.jpg" alt="Логотип"
+											  class="header__logo-img">
+	</a>
+	<div class="header__menu">
+		<menu class="header__menu_primory">
+			<li class=" header__menu_primory-item">
+				<a href="" class="header__menu-link header__menu_primory-link">
+					<i class="fa fa-plus-square-o header__menu-link-icon header__menu_primory-link-icon" aria-hidden="true"></i>
+					<p class="header__menu-link-text header__menu_primory-link-text">Создать</p>
+				</a>
+			</li>
+			<li class=" header__menu_primory-item">
+				<a href="" class="header__menu-link header__menu_primory-link">
+					<i class="fa fa-comment-o header__menu-link-icon  header__menu_primory-link-icon" aria-hidden="true"></i>
+					<p class="header__menu-link-text header__menu_primory-link-text">Чат</p>
+				</a>
+			</li>
+			<li class=" header__menu_primory-item">
+				<a href="" class="header__menu-link header__menu_primory-link">
+					<i class="fa fa-map-o header__menu-link-icon header__menu_primory-link-icon" aria-hidden="true"></i>
+					<p class=header__menu-link-text "header__menu_primory-link-text">Карта</p>
+				</a>
+			</li>
+			<li class=" header__menu_primory-item">
+				<a href="" class="header__menu-link header__menu_primory-link">
+					<i class="fa fa-area-chart header__menu-link-icon  header__menu_primory-link-icon" aria-hidden="true"></i>
+					<p class=header__menu-link-text "header__menu_primory-link-text">Статистика</p>
+				</a>
+			</li>
+			<li class=" header__menu_primory-item">
+				<a href="" class="header__menu-link header__menu_primory-link">
+					<i class="fa fa-table header__menu-link-icon header__menu_primory-link-icon" aria-hidden="true"></i>
+					<p class=header__menu-link-text "header__menu_primory-link-text">Сигналы</p>
+				</a>
+			</li>
+			<li class=" header__menu_primory-item">
+				<a href="" class="header__menu-link header__menu_primory-link">
+					<i class="fa fa-question-circle-o header__menu-link-icon header__menu_primory-link-icon" aria-hidden="true"></i>
+					<p class="header__menu-link-text header__menu_primory-link-text">Инфо</p>
+				</a>
+			</li>
+		</menu>
+		<menu class="header__menu_second">
+			<li class="header__menu_second-item">
+				<a href="" class="header__menu-link header__menu_second-link">
+					<i class="fa fa-files-o header__menu-link-icon" aria-hidden="true"></i>
+					<p class="header__menu-link-text">Процессы</p>
+				</a>
+			</li>
+			<li class="header__menu_second-item">
+				<a href="" class="header__menu-link header__menu_second-link">
+					<i class="fa fa-tree header__menu-link-icon" aria-hidden="true"></i>
+					<p class="header__menu-link-text">Сценарии</p>
+				</a>
+			</li>
+		</menu>
+		<menu class="header__menu_therd">
+			<li class="header__menu_therd-item">
+				<a href="" class="header__menu-link header__menu_therd-link">
+					<i class="fa fa-download header__menu-link-icon" aria-hidden="true"></i>
+					<p class="header__menu-link-text">Загрузка</p>
+				</a>
+			</li>
+		</menu>
+		<menu class="header__menu_four">
+			<li class="header__menu_four-item">
+				<a href="" class="header__menu-link header__menu_four-link">
+					<i class="fa fa-archive header__menu-link-icon" aria-hidden="true"></i>
+				</a>
+			</li>
+			<li class="header__menu_four-item">
+				<a href="" class="header__menu-link header__menu_four-link">
+					<i class="fa fa-map-signs header__menu-link-icon" aria-hidden="true"></i>
+				</a>
+			</li>
+			<li class="header__menu_four-item">
+				<a href="" class="header__menu-link header__menu_four-link">
+					<i class="fa fa-lightbulb-o header__menu-link-icon" aria-hidden="true"></i>
+				</a>
+			</li>
+			<li class="header__menu_four-item">
+				<a href="" class="header__menu-link header__menu_four-link">
+					<i class="fa fa-user header__menu-link-icon" aria-hidden="true"></i>
+				</a>
+			</li>
+		</menu>
+	</div>
+
 </div>
+
+<div id="plate" class="main"></div>
+
 
 <script>
 	$(function() {
