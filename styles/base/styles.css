@@ -141,15 +141,15 @@ a.min {
 }
 
 .window .tabline ul li.active {
-	border-bottom: 1px solid #f5f5f5;
-	/*z-index: 1000;*/
+	/*border-bottom: 1px solid #f5f5f5;
+	!*z-index: 1000;*!
 	margin-top: 0;
-	background: #f5f5f5
+	background: #f5f5f5*/
 }
 
 .window .tabline ul li.active div {
-	margin: 1px 1px 0 1px;
-	background: -webkit-linear-gradient(top, bottom, #e6efff, #f5f5f5);
+	/*margin: 1px 1px 0 1px;*/
+	/*background: -webkit-linear-gradient(top, bottom, #e6efff, #f5f5f5);
 	background: -webkit-gradient(linear, left bottom, left top, color-stop(1, #e6efff), color-stop(0, #f5f5f5));
 	background: -moz-linear-gradient(top, #e6efff, #f5f5f5);
 	background: -o-linear-gradient(top, #e6efff, #f5f5f5);
@@ -157,13 +157,13 @@ a.min {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6efff', endColorstr='#f5f5f5');
 	border-right: 1px solid #aec9e6;
 	border-top: 1px solid #aec9e6;
-	border-left: 1px solid #aec9e6;
+	border-left: 1px solid #aec9e6;*/
 }
 
 
 .window .tabline ul li.active span.close {
-	right: 6px;
-	top: 8px;
+	/*right: 6px;
+	top: 8px;*/
 }
 
 .window1 a.split {
